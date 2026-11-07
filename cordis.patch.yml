@@ -1,0 +1,6 @@
+# dsh-course-notes bundle patch: insert the plugin row into the profile plugin list.
+# Installed as a bundle (package.json dsh.bundle.patch) by `dsh plugin add dsh-course-notes`.
+# Do NOT also insert the same id in the profile patch — duplicate loader entry ids fail.
+- insert:
+    - id: dsh-course-notes
+      name: 'dsh-course-notes'

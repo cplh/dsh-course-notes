@@ -1,0 +1,53 @@
+{
+  "name": "dsh-course-notes",
+  "version": "1.1.0",
+  "description": "B站课程知识笔记桥：监听 dsh-video-coursemap 的新视频，生成同名 Markdown + Word（视频链接置顶），并通过 dsh-memory-evolve 新建会话交付。",
+  "type": "module",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "Picasso",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cplh/dsh-course-notes.git"
+  },
+  "homepage": "https://github.com/cplh/dsh-course-notes#readme",
+  "bugs": {
+    "url": "https://github.com/cplh/dsh-course-notes/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "bilibili",
+    "course-notes",
+    "knowledge-map",
+    "markdown",
+    "docx",
+    "video-summary"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.1"
+  },
+  "os": [
+    "win32"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node tests/plugin.test.mjs"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "CHANGELOG.md",
+    "tests"
+  ]
+}

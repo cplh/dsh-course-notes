@@ -1,0 +1,8 @@
+# 可选：bundle 安装后，用 profile patch 覆盖本插件配置。
+# 不要在这里再写 insert（bundle 已 insert 过，重复 id 会失败）。
+- id: dsh-course-notes
+  config:
+    coursemapOutputDir: 'C:\Users\<you>\课程知识地图'
+    outputDir: 'C:\Users\<you>\课程笔记'
+    sessionCwd: 'C:\Users\<you>\项目'
+    # pythonPath: 'C:\Users\<you>\AppData\Local\...\python.exe'
