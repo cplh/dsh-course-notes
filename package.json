@@ -1,6 +1,6 @@
 {
   "name": "dsh-course-notes",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "B站课程知识笔记桥：监听 dsh-video-coursemap 的新视频，生成同名 Markdown + Word（视频链接置顶），并通过 dsh-memory-evolve 新建会话交付。",
   "type": "module",
   "main": "lib/index.js",
